@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.page {
+    width: 80mm;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5mm;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.border {
+    padding: 1mm;
+    /* margin: 0 auto; */
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.shop-info {
+    font-size: 15px;
+    float: center;
+    margin-bottom: 5px;
+}
+
+
+.sub-Iheader {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+
+.invoice-logo {
+    margin: 0 auto;
+    display: block;
+    float: center;
+    position: relative;
+}
+
+.customer-info{
+    font-size: 15px;
+    text-align:  right;
+    margin-bottom: 10px;
+}
+.ellipsis {
+    max-width: 40px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.table.table-striped {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table.table-striped th.left,
+  .table.table-striped td.left {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .table.table-striped th.right,
+  .table.table-striped td.right {
+    text-align: right;
+    width: 10%;
+  }
+  
+  .table.table-striped tfoot td {
+    text-align: right;
+  }
+  
+
+.in-footer {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
